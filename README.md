@@ -144,7 +144,7 @@ The default prompts are tuned for strong performance on the Legal RAG Bench corp
 
 ## License
 
-This project is licensed under the [CC-BY-NC-SA-4.0](LICENSE) license. 
+This project is licensed under the [MIT](LICENSE) license. 
 
 ## Citation
 
