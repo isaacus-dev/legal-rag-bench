@@ -142,6 +142,13 @@ Edit `prompts.py`:
 
 The default prompts are tuned for strong performance on the Legal RAG Bench corpus.
 
+## Reproducibility
+The results reported for Legal RAG Bench were generated on the 20th of Feburary 2026, shortly after the public preview release of Gemini 3.1 Pro. You may observe different outputs and/or benchmark scores across runs, even with the same prompts and data, for several reasons:
+1. **LLM outputs are non-deterministic.** APIs can return different outputs across requests with identical inputs. Setting `temperature=0` may reduce variance but does not guarantee determinism. If your provider supports it, consider using a fixed `seed` and recording any response metadata to aid reproducibility. Note that doing this will deviate from the default settings tested in Legal RAG Bench.
+2. **Model providers update models over time.** A model “name” or alias may refer to an evolving system. Provider-side updates (weights, routing, safety layers, tool policies, decoding defaults, etc.) can change behavior and benchmark scores between dates, sometimes without a clear semantic-version signal.
+3. **LangChain and other dependencies change quickly.** Updates can modify prompt formatting, tokenization, retriever defaults, retry logic, and other behaviors that materially affect results.
+4. **Runtime/infrastructure differences matter.** Python versions, OS, vector DB implementations, embedding libraries, and hardware can affect retrieval behavior, latency, and occasionally outputs.
+
 ## License
 
 This project is licensed under the [MIT](LICENSE) license. 
