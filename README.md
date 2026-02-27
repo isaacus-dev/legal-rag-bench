@@ -156,5 +156,11 @@ This project is licensed under the [MIT](LICENSE) license.
 ## Citation
 
 ```bibtex
-TBD
+@misc{butler2026legalragbench,
+      title={Legal RAG Bench},
+      author={Abdur-Rahman Butler and Umar Butler},
+      year={2026},
+      url={https://github.com/isaacus-dev/legal-rag-bench},
+      note={Preprint forthcoming.}
+}
 ```
