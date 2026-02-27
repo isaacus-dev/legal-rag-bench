@@ -1,8 +1,8 @@
 # Legal RAG Bench
 
-This repository contains the code used to evaluate RAG systems on the Legal RAG Bench.
+This repository contains the code used to evaluate RAG systems on Legal RAG Bench.
 
-If you're looking for the Legal RAG Bench dataset, you can find it on Hugging Face: https://huggingface.co/datasets/isaacus/legal-rag-bench. Our companion post provides an interactive overview of the dataset and evaluation results: https://isaacus.com/blog/legal-rag-bench.
+If you're looking for the data behind Legal RAG Bench, you can find it [here](https://huggingface.co/datasets/isaacus/legal-rag-bench). A full interactive write up of how Legal RAG Bench was built is also available [here](https://isaacus.com/blog/legal-rag-bench).
 
 ## Setup
 
