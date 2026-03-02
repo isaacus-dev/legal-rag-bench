@@ -156,7 +156,7 @@ This project is licensed under the [MIT](LICENSE) license.
 ## Citation
 
 ```bibtex
-@misc{butler2026legalragbench,
+@misc{butler2026legalragbenchcode,
       title={Legal RAG Bench},
       author={Abdur-Rahman Butler and Umar Butler},
       year={2026},
